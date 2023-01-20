@@ -53,7 +53,7 @@ Response json payload
 ### For personal repo
 
 ```YAML
-uses: kapsztajn/actions-set-secret@v1.0.0
+uses: kapsztajn/actions-set-secret@v/1.0.0
 with:
   name: 'MY_SECRET_NAME'
   value: 'Lorem ipsun dolor simit'
@@ -64,7 +64,7 @@ with:
 ### For organizations
 
 ```YAML
-uses: kapsztajn/actions-set-secret@v1.0.0
+uses: kapsztajn/actions-set-secret@v/1.0.0
 with:
   name: 'MY_SECRET_NAME'
   value: 'Lorem ipsun dolor simit'
@@ -77,7 +77,7 @@ with:
 ### For environment
 
 ```YAML
-uses: kapsztajn/actions-set-secret@v1.0.0
+uses: kapsztajn/actions-set-secret@v/1.0.0
 with:
   name: 'MY_SECRET_NAME'
   value: 'Lorem ipsun dolor simit'
